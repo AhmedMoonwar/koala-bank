@@ -1,0 +1,26 @@
+body{
+    /* padding: 100px; */
+}
+.bank-title{
+    padding: 100px 100px 0 100px;
+}
+.login-form-area input{
+    margin-bottom: 15px;
+}
+.login-form-area{
+    width: 400px;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.btn-success{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+}
+.cmpny-name{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
