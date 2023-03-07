@@ -26,19 +26,38 @@
                 <div class="col-md-4">
                     <div class="status deposite">
                         <h5 class="text-center text-lg-start">Deposite</h5>
-                        <h2 class="text-center text-lg-start">$00</h2>
+                        <h2 class="text-center text-lg-start">$ <span id="deposite-Amount">00</span></h2>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="status withdraw">
                         <h5 class="text-center text-lg-start">Withdraw</h5>
-                        <h2 class="text-center text-lg-start">$00</h2>
+                        <h2 class="text-center text-lg-start">$ <span id="withdraw-Amount">00</span></h2>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="status balance">
                         <h5 class="text-center text-lg-start">Balance</h5>
-                        <h2 class="text-center text-lg-start">$1000</h2>
+                        <h2 class="text-center text-lg-start">$ <spnan id="balance-amount">1000</spnan></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="balance-update">
+                        <h4>Deposite</h4>
+                        <input type="text" id="deposite-amount" class="form-control" placeholder="$ amount you want to deposite">
+                        <button id="deposite-btn" class="btn btn-success">Deposite</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="balance-update">
+                        <h4>Withdraw</h4>
+                        <input id="withdraw-amount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                        <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
                     </div>
                 </div>
             </div>

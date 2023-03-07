@@ -39,7 +39,17 @@ body{
 }
 .status{
     margin:20px;
-    padding: 20px;
+    padding: 25px;
     color: white;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.balance-update{
+    margin: 25px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.balance-update input{
+    margin-bottom: 15px;
 }
