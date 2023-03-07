@@ -22,7 +22,12 @@ depositeBtn.addEventListener("click", function(){
 const withdrawBtn = document.getElementById("withdraw-btn");
 withdrawBtn.addEventListener("click", function(){
     const withdrawAmountNum = getInput("withdraw-amount");
-    console.log(withdrawAmountNum);
+
+    balanceUpdate("withdraw-Amount", withdrawAmountNum);
+    balanceUpdate("balance-amount", -1 *withdrawAmountNum);
+
+
+    document.getElementById("withdraw-amount").value = "";
 })
 
 function getInput(id){
